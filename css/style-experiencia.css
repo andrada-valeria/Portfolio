@@ -1,0 +1,44 @@
+
+.experiencia{
+  margin: 25px;
+  font-family: 'Lato', sans-serif;
+}
+
+.fcc-btn {
+  background-color: #63bcc9;
+  color: white;
+  padding: 8px 25px;
+  text-decoration: none;
+  border-radius: 15px;
+  margin: 15px;
+
+  
+}
+.fcc-btn:hover {
+  background-color: black;
+  color: yellow;
+  border-radius: 10px;
+}
+.codificador , .mediayes, .mi-bella-lana {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     text-align: justify;
+     	
+transition:all .5s ease-in-out;
+}
+
+.experiencia .info {
+ 
+  padding: 25px 15px;
+  
+  align-items: center;
+  margin-left: 7%;
+  margin: 25px;
+}
+
+.experiencia .proyecto :hover{
+  filter: grayscale(40%);
+  border-radius: 10px;
+  
+}

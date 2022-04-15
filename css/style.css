@@ -3,17 +3,21 @@
    font-family: 'Montserrat';
    align-items: center;
    line-height: 2;
-}
-body{
-   line-height: 2;
+   
 }
 
-.cabecera{
-   position: fixed;
+
+#cabecera{
+ 
     width: 100%;
-   top: 0;
-   left: 0;
-   padding: 20px 0.3px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  position: fixed;
+  top: 0;
+  transition: top 0.5s;
+
    font-family: 'Montserrat';
    background: linear-gradient(45deg,#47cacc,#63bcc9,#cdb3d4,#e7b7c8,#ffbe88);
     
@@ -66,26 +70,33 @@ nav a{
    }
 
     .presentacion{
-      display: block;
-      flex-direction: grid;
-      grid-template-columns: presentacion-texto foto-vale;
-      grid-template-rows: links;
-     /* position: inherit;*/
+      display:  block;
+      background: lightblue;
+
+    
+   
       font-family: 'Montserrat';
     padding: 80px 20px;
       
     
    }
 .presentacion-texto{
-   display: flex;
-   flex-direction: column ;
+  display: flex;
    font-size: 18px;
-   text-align:justify;
+   text-align:left;
    padding-top: 6rem;
    padding-bottom: 5rem;
-   
-   
+      
 }
+.foto-vale{
+   border-radius: 50% 20% / 10% 40%; 
+  
+
+    right: 85px;
+   width: 200px;
+   height: 200px;
+
+   }
 
 .links a{
    color: grey;
@@ -96,26 +107,16 @@ nav a{
 }
 
 .links a :hover{
-   color: burlywood;
+transform: scale(1.2);
  
 }
 
-.foto-vale{
-   border-radius: 50% 20% / 10% 40%; 
-   flex-direction: column;
-    position: absolute;
-    right: 55px;
-   width: 250px;
-   height: 250px;
-  
-  
- 
-   }
+
 
    .sobre-mi{
     
    background: url(../img/Mt.FujiJapan-day.svg) fixed no-repeat center center ;
-    background-size: 100% 100%;
+    background-size: 100% 100% ;
     
 }
 
@@ -123,6 +124,7 @@ nav a{
       font-family: 'Raleway', sans-serif;
    padding: 2rem 2rem 2rem 2rem;
       text-align: justify;
+      margin: 0 0 1em;
       color:#022222;
    
    }
@@ -148,3 +150,69 @@ nav a{
       border-top: 1.5px solid
    
    }
+
+/*
+   @media only screen and (max-width: 375px) {
+      /* For mobile device: */
+    /*  .banner {
+        padding: 50px 50px;
+      } */
+     /* .container {
+        width: 90%;
+      }
+      .banner-column {
+        grid-template-columns: repeat(1, 1fr);
+      }
+      .cards {
+        grid-template-columns: repeat(1, 1fr);
+      }
+      .footer-column {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }*/
+
+    
+@media (min-width: 500px) {
+   .container {
+     width: 400px;
+   }
+   .cabecera {
+     grid-template-columns: 1fr;
+
+   }
+   .presentacion{
+      grid-template-columns: 1fr;
+   }
+   .sobre-mi{
+      grid-template-columns: 1fr;
+   }
+   .s-h{
+      grid-template-columns: 1fr;
+   }
+   .experiencia{
+      grid-template-columns: 1fr;
+   }
+   .contact-section{
+      grid-template-columns: 1fr;
+   }
+   .footer{
+      grid-template-columns: 1fr;
+   }
+ 
+ }
+ @media (min-width: 700px) {
+   .container {
+     width: 600px;
+   }
+   .cabecera, .presentacion, .sobre-mi, .s-h, .experiencia,.contact-section,.footer {
+     grid-template-columns: 1fr 1fr;
+   }
+ }
+ @media (min-width: 1000px) {
+   .container {
+     width: 900px;
+   }
+   .cabecera, .presentacion, .sobre-mi, .s-h, .experiencia,.contact-section,.footer {
+     grid-template-columns: 1fr 1fr 1fr;
+   }
+ }

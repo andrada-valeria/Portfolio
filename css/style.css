@@ -107,6 +107,7 @@ align-items: flex-end;
   /*background: url(../img/Mt.FujiJapan-day.svg) fixed no-repeat center center ;*/
   background-image: url(../img/Mt.FujiJapan-day.svg);
   background-size: 100% 100%;
+  width: auto;
 }
 
 .sobremi-txt p {
@@ -147,9 +148,14 @@ footer {
 .sobre-mi{
   background: #63bcc9 ;
 }
-.panel, .hobbies ,.proyecto, .info{
+
+.panel, .hobbies,.experiencia,.proyecto, .info{
+ 
   width: 100%;
 }
-
-  
+.codificador, .mediayes, .mi-bella-lana{
+      display: block;
+   
+  }
 }
+  

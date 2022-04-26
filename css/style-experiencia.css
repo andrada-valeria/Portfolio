@@ -1,7 +1,10 @@
 
 .experiencia{
-  margin: 25px;
+  margin: 30px;
   font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  transition: 1s all;
+   position: auto;
 }
 
 .fcc-btn {
@@ -13,6 +16,11 @@
   margin: 15px;
 
   
+}
+
+
+h2{
+font-weight: bold;
 }
 .fcc-btn:hover {
   background-color: black;
@@ -41,4 +49,14 @@ transition:all .5s ease-in-out;
   filter: grayscale(40%);
   border-radius: 10px;
   
+}
+/*mobile*/
+@media only screen and (max-width: 375px) {
+  .container {
+   width: 90%;
+  }
+ .experiencia,.codificador,.mediayes,.mi-bella-lana {
+   grid-template-columns: repeat(1, 1fr);
+  }
+ 
 }

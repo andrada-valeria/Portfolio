@@ -1,8 +1,8 @@
 .hobbie{
     display: flex;
     padding: 30px; 
-    transition: 2s all;
     transition: 1s all;
+  
    
 }
 .hobbies img{
@@ -12,13 +12,14 @@
     
 }
 .hobbies :hover{
-    border-radius:50%;
+   /* border-radius:50%;
 -webkit-border-radius:50%;
 box-shadow: 0px 0px 15px 15px #8abada;
 -webkit-box-shadow: 0px 0px 15px 15px #51accf;
 transform: rotate(360deg);
 -webkit-transform: rotate(360deg);
+*/
 
+transition: 200ms;
+box-shadow: 10px -10px steelblue, -10px 10px teal;
 }
-
-

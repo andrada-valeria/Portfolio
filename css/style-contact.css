@@ -6,6 +6,8 @@
     display: flex;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+
 
 }
 .contact-img{
@@ -17,7 +19,10 @@
 form{
     margin: 40px 0;
 }
-form label, form p{
+p{
+    margin-bottom: 3rem;
+}
+form label, form legend{
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
@@ -29,31 +34,21 @@ padding: 5px 25px;
 width: 50%;
 
 }
-
-
-/*
-@media only screen and (max-width: 550px)
-#contact-section{
-    padding: 2rem 2rem;
-    display: grid;
-    grid-template-columns: 100%;
-    justify-content: center;
-    background-color: #eaf2fd;
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+   margin-top: 3rem;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #0d8d8f;
+    border:none;
+    border-radius: 5px;
+    transition: 1s background;
+    cursor: pointer;
 }
-@media only screen and (max-width: 1100px)
-#contact-section{
-    width: 100%;
-    padding: 2rem 2rem;
-    display: grid;
-    grid-template-columns: 100%;
-    justify-content: center;
- 
+.enviar:hover{
+    /*#47cacc,#63bcc9,#cdb3d4,#e7b7c8,#ffbe88*/
+    background: #0b4142;
+    transform: scale(1.2);
 }
-@media only screen and (max-width: 2900px)
-#contact-section{
-    padding: 2rem 12rem;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    justify-content: center;
-   
-}*/

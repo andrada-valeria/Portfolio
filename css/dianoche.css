@@ -1,9 +1,13 @@
 body.dark{
-    background:  #6ca6be;
+    background: linear-gradient(
+    #3f76bf,lightskyblue,#3f76bf);
+    color: azure;
+ 
   }
 
 .darkModeSwitch{
-    background: #3494b1;
+  background: white;
+
     display:flex;
     position: relative;
     cursor: pointer;
@@ -19,12 +23,12 @@ body.dark{
     height:30px;
     line-height:30px;
     display:block;
-    color:#fff;
+    color:rgb(185, 180, 105);
     background: none;
 }
 .darkModeSwitch::after{
     display:block;
-    background: #fffbf5;
+    background: #d1b559;
     width: 2.4rem;
     height: 2.4rem;
     position: absolute;
@@ -37,7 +41,7 @@ body.dark{
     content: "";
 }
 .darkModeSwitch.active{
-    background: #fdd384;
+    background: #16149c;
   }
   .darkModeSwitch.active::after{
     left:unset;

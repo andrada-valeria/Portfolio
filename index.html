@@ -3,38 +3,46 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width-device-width"> 
+  <meta name="viewport" content="width-device-width">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <link rel="stylesheet" href="css/reset.css" />
-  <link rel="stylesheet" href="css/style.css" /> 
+  <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/styles-skills.css">
   <link rel="stylesheet" href="css/style-hobbies.css">
   <link rel="stylesheet" href="css/styles-estudios.css" />
   <link rel="stylesheet" href="css/style-experiencia.css">
   <link rel="stylesheet" href="css/style-contact.css">
-<link rel="stylesheet" href="css/dianoche.css">
+  <link rel="stylesheet" href="css/dianoche.css">
+  <link rel="stylesheet" href="css/style-nav.css">
   <link rel="icon" href="img/av.ico">
- <!--<meta name="viewport"
-    content="width=device-width, user-scalable=yes, minimum-scale=1.0, maximum-scale=3.0, initial-scale=1.0" />--> 
-    <script src="https://kit.fontawesome.com/f09689b89n.js" crossorigin="anonymous"></script> <!--FontAwesome 5-->  <title>Portfolio Andrada Valeria</title>
+  <!--<meta name="viewport"
+    content="width=device-width, user-scalable=yes, minimum-scale=1.0, maximum-scale=3.0, initial-scale=1.0" />-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--FontAwesome 5-->
+  <title>Portfolio Andrada Valeria</title>
 </head>
 
 <body>
   <header>
-    <!-- Navegador-->
-    <div id="cabecera">
-      <button class="darkModeSwitch" id="switch">
-        <span><i class="fa fa-sun-o"></i></span>   
-        <span><i class="fa fa-moon-o"></i></span>
-      </button>
-      <div>
-        <h3>
-          <img loading="lazy" src="img/miniLogo.png" alt="mini estrellitas" />Valeria Fernanda
-          Andrada
-        </h3>
-      </div>
+    <button class="darkModeSwitch" id="switch">
+      <span><i class="fa fa-sun-o"></i></span>
+      <span><i class="fa fa-moon-o"></i></span>
+    </button>
+    <div>
+      <h3>
+        <img loading="lazy" src="img/miniLogo.png" alt="mini estrellitas" />Valeria Fernanda
+        Andrada
+      </h3>
+    </div>
+  </header>
+  <!-- Navegador-->
 
+
+
+   
       <nav>
+
         <ul class="nav_links">
           <li><a href="#SobreMi">Sobre mi</a></li>
           <li>
@@ -56,20 +64,21 @@
             <a href="#contacto">andrada.vf@gmail.com </a>
           </li>
         </ul>
-       
+        <div class="hide">
+          <i class="fa fa-bars" aria-hidden="true"></i> Menu
+        </div>
       </nav>
 
-    </div>
 
-  </header>
+
 
   <main>
     <!--Presentacion -->
     <section class="presentacion">
       <div class="presentacion-texto">
-         <p>Bienvenido, me llamo Valeria Fernanda Andrada.  Soy Programadora Web
+        <p>Bienvenido, me llamo Valeria Fernanda Andrada. Soy Programadora Web
           Full Stack Jr. & Tecnica Universitaria en Redes y Telecomunicaciones <br>
-       
+
           Actualmente estoy participando del proyecto Oracle ONE en Alura Latam.
         </p>
         <img loading="lazy" class="foto-vale" src="img/vale.jpg" alt="foto Valeria Andrada" />
@@ -85,11 +94,7 @@
             alt="flechita" /></a>
       </div>
 
-
-      </div>
-
-
-    </section>
+   </section>
 
     <!--Sobre Mi -->
     <a name="SobreMi"></a>
@@ -98,8 +103,9 @@
       <h1 class="titulos"><strong>Sobre Mi</strong> </h1>
       <div class="sobremi-txt">
 
-       
-        <p> Me llamo Valeria Fernanda Andrada, tengo 34 años y soy de Argentina. Como desarrolladora Web junior & Tecnica Universitaria en Redes y
+
+        <p> Me llamo Valeria Fernanda Andrada, tengo 34 años y soy de Argentina. Soy desarrolladora Web junior & Tecnica
+          Universitaria en Redes y
           Telecomunicaciones, encuentro fascinante el avance tecnologico y
           todo lo que se puede lograr con él. </p>
         <p>
@@ -107,7 +113,7 @@
           poder integrarme en el equipo para desarrollar proyectos y
           generar soluciones poniendo en práctica mis habilidades,
           conocimientos, iniciativa de aprendizaje y compañerismo.
-       
+
         </p>
       </div>
 
@@ -116,79 +122,79 @@
   </main>
   <!-- Skills y hobbies-->
 
-<div class="s-h">
-  <a name="Skill"></a>
-  <br>
-  <h1 class="titulos"><strong>Skill</strong> </h1>
-  <div id="skills">
+  <div class="s-h">
+    <a name="Skill"></a>
+    <br>
+    <h1 class="titulos"><strong>Skill</strong> </h1>
+    <div id="skills">
 
 
-    <div class="panel">
-      <img loading="lazy" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
-        alt="java" />
+      <div class="panel">
+        <img loading="lazy" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+          alt="java" />
+      </div>
+      <div class="panel">
+        <img loading="lazy"
+          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
+          alt="github" />
+      </div>
+      <div class="panel">
+        <img loading="lazy"
+          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+          alt="javascript" />
+      </div>
+      <div class="panel">
+        <img loading="lazy"
+          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
+          alt="bootstrap" />
+      </div>
+
+      <div class="panel">
+        <img loading="lazy"
+          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
+          alt="cplusplus" />
+      </div>
+      <div class="panel">
+        <img loading="lazy"
+          src="https://camo.githubusercontent.com/4545b55c7771bbd175235c80b518dcbbf2f6ee0b984a51ad9363cba8cb70e67c/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f737072696e67696f2f737072696e67696f2d69636f6e2e737667"
+          alt="spring" data-canonical-src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg"
+          style="max-width: 100%" />
+      </div>
+      <div class="panel">
+        <img loading="lazy"
+          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+          alt="css3" />
+      </div>
+      <div class="panel">
+        <img loading="lazy"
+          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+          alt="html5" />
+      </div>
     </div>
-    <div class="panel">
-      <img loading="lazy"
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
-        alt="github" />
+    <!--Hobbies-->
+
+    <a name="Hobbies"></a>
+    <br>
+    <h1 class="titulos"><strong>Hobbies</strong> </h1>
+    <div class="hobbie">
+
+      <div class="hobbies"><img loading="lazy" src="img/hobbies/caminar.gif" alt="caminar" /></div>
+      <div class="hobbies"><img src="img/hobbies/pasatiempo.png" alt="tejer crochet"></div>
+      <div class="hobbies"><img src="img/hobbies/knitting-needles.png" alt="sudoku"></div>
+      <div class="hobbies"><img loading="lazy" src="img/hobbies/musica.png" alt="musica"></div>
+      <div class="hobbies"><img loading="lazy" src="img/hobbies/television.png" alt="Peliculas y series"></div>
+
     </div>
-    <div class="panel">
-      <img loading="lazy"
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-        alt="javascript" />
-    </div>
-    <div class="panel">
-      <img loading="lazy"
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
-        alt="bootstrap" />
-    </div>
-    
-    <div class="panel">
-      <img loading="lazy"
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
-        alt="cplusplus" />
-    </div>
-    <div class="panel">
-      <img loading="lazy"
-        src="https://camo.githubusercontent.com/4545b55c7771bbd175235c80b518dcbbf2f6ee0b984a51ad9363cba8cb70e67c/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f737072696e67696f2f737072696e67696f2d69636f6e2e737667"
-        alt="spring" data-canonical-src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg"
-        style="max-width: 100%" />
-    </div>
-    <div class="panel">
-      <img loading="lazy"
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-        alt="css3" />
-    </div>
-    <div class="panel">
-      <img loading="lazy"
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
-        alt="html5" />
-    </div>
+
   </div>
-  <!--Hobbies-->
- 
-  <a name="Hobbies"></a>
-  <br>
-  <h1 class="titulos"><strong>Hobbies</strong> </h1>
-  <div class="hobbie">
-   
-    <div class="hobbies"><img loading="lazy" src="img/hobbies/caminar.gif" alt="caminar" /></div>
-    <div class="hobbies"><img src="img/hobbies/pasatiempo.png" alt="tejer crochet"></div>
-    <div class="hobbies"><img src="img/hobbies/knitting-needles.png" alt="sudoku"></div>
-    <div class="hobbies"><img loading="lazy" src="img/hobbies/musica.png" alt="musica"></div>
-    <div class="hobbies"><img loading="lazy" src="img/hobbies/television.png" alt="Peliculas y series"></div>
 
-  </div>
 
-</div>
-    
- 
   <!--Formacion academica y cursos -->
   <a name="Formacion"></a>
-   
+
   <h1 class="titulos"><strong>Formación Academica y Cursos</strong> </h1>
   <div class="container__card">
-   
+
     <div class="card__father">
       <div class="card">
         <div class="card__front" style="background-image: url(img/Academia/itu.jpg);">
@@ -201,11 +207,10 @@
           <div class="body__card_back">
             <h1>Técnico Universitario en Redes y Telecomunicaciones</h1>
             <p></p>
-            <input type="button" value="Mas info"
-              src=""
-              target="_blank">
-              <a target="_black" src="https://itu.uncuyo.edu.ar/estudios/titulo/tecnicoa-universitarioa-en-redes-de-datos-y-telecomunicaciones">
-                <input type="button" value="Mas info"></a>
+            <input type="button" value="Mas info" src="" target="_blank">
+            <a target="_black"
+              src="https://itu.uncuyo.edu.ar/estudios/titulo/tecnicoa-universitarioa-en-redes-de-datos-y-telecomunicaciones">
+              <input type="button" value="Mas info"></a>
           </div>
         </div>
       </div>
@@ -327,55 +332,55 @@
   <br>
   <h1 class="titulos"><strong>Experiencia</strong></h1>
 
-<div class="experiencia">
-  <div class="codificador">
-    <div class="proyecto">
-      <img class="img-exp" loading="lazy" src="img/experiencia/codificador.png" alt="codificador">
-    </div>
-    <div class="info">
-      <h2>Alura encriptador</h2>
-      <p>Challenge de Proyecto Oracle Next Education, utilizando html, css y javascript </p>
-      <a target="_blank" class="fcc-btn" href="https://www.freecodecamp.org/">Repositorio</a>
-      <a target="_blank" class="fcc-btn" href="https://andrada-valeria.github.io/Codificador_Alura-Latam/">Demo</a>
+  <div class="experiencia">
+    <div class="codificador">
+      <div class="proyecto">
+        <img class="img-exp" loading="lazy" src="img/experiencia/codificador.png" alt="codificador">
+      </div>
+      <div class="info">
+        <h2>Alura encriptador</h2>
+        <p>Challenge de Proyecto Oracle Next Education, utilizando html, css y javascript </p>
+        <a target="_blank" class="fcc-btn" href="https://www.freecodecamp.org/">Repositorio</a>
+        <a target="_blank" class="fcc-btn" href="https://andrada-valeria.github.io/Codificador_Alura-Latam/">Demo</a>
+      </div>
+
     </div>
 
-  </div>
-
-  <div class="mediayes">
-    <div class="proyecto">
-      <img class="img-exp" loading="lazy" src="img/experiencia/mediayes.png" alt="">
-    </div>
+    <div class="mediayes">
+      <div class="proyecto">
+        <img class="img-exp" loading="lazy" src="img/experiencia/mediayes.png" alt="">
+      </div>
       <div class="info">
         <h2>Landing page Media Yes</h2>
         <p>Curso Le wagon, simulando una Landing page invitando a visitar paginas de contenido multimedia. Se utilizo
           html
           y css. <br> </p>
-          
+
         <a target="_blank" class="fcc-btn" href="https://www.freecodecamp.org/">Repositorio</a>
         <a target="_blank" class="fcc-btn" href="https://andrada-valeria.github.io/Codificador_Alura-Latam/">Demo</a>
       </div>
 
-  </div>
-
-
-  <div class="mi-bella-lana">
-    <div class="proyecto">
-
-      <img class="img-exp" loading="lazy" src="img/experiencia/mi-bella-lana.png" alt="">
-
-   
     </div>
-    <div class="info">
-      <h2>Langing page Mi bella Lana</h2>
-      <p>Curso Le wagon, simulando una Landing page invitando redes sociales donde se novedades de amigurumis. Se
-        utilizo html y css. </p>
 
-      <a target="_blank" class="fcc-btn" href="https://www.freecodecamp.org/">Repositorio</a>
-      <a target="_blank" class="fcc-btn" href="https://andrada-valeria.github.io/Codificador_Alura-Latam/">Demo</a>
+
+    <div class="mi-bella-lana">
+      <div class="proyecto">
+
+        <img class="img-exp" loading="lazy" src="img/experiencia/mi-bella-lana.png" alt="">
+
+
+      </div>
+      <div class="info">
+        <h2>Langing page Mi bella Lana</h2>
+        <p>Curso Le wagon, simulando una Landing page invitando redes sociales donde se novedades de amigurumis. Se
+          utilizo html y css. </p>
+
+        <a target="_blank" class="fcc-btn" href="https://www.freecodecamp.org/">Repositorio</a>
+        <a target="_blank" class="fcc-btn" href="https://andrada-valeria.github.io/Codificador_Alura-Latam/">Demo</a>
+      </div>
     </div>
+
   </div>
-  
-</div>
 
   <!--
  <div class="libreria-egg">
@@ -418,49 +423,52 @@
   <br>
   <h1 class="titulos"><strong>Contacto</strong></h1>
   <section id="contact-section">
-   
-      <img class="contact-img" src="https://creatigraf.com.ve/wp-content/uploads/2020/11/contact-1280x1161.png" alt="imagen para contactar">
-  
+
+    <img class="contact-img" src="https://creatigraf.com.ve/wp-content/uploads/2020/11/contact-1280x1161.png"
+      alt="imagen para contactar">
+
     <div class="formulario-contact">
-    
+
       <form>
-       
+
         <p>¿Querés comunicarte?</p>
         <p>Complete el siguiente formulario y me pondre en contacto con Ud. a la brevedad</p>
 
-     
+
         <input type="text" placeholder="Nombre y Apellido" id="nombreapellido" class="input-padron" required>
 
-     <!-- <label for="correoelectronico">Correo Electrónico</label>--> 
-      <input type="email"  id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
-     
-     
-      <input type="tel"  id="telefono" class="input-padron" required placeholder=" Telefono (XX) (XXXX XXXX)" >
-      <input type="text" placeholder="Asunto" id="asunto" class="input-padron" required>
-    
-      <textarea name="mensaje" id="mensaje" cols="70" rows="10" placeholder="Mensaje" class="input-padron"></textarea>
-    
-        <fieldset>
-          <legend>Cómo le gustaria que lo contacte? </legend> 
-          <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">E-mail</label>
-        
-          
-            <label for="radio-telefono">  <input type="radio" name="contacto" value="telefono" id="radio-telefono">Telefono</label>
-          
-    
-            <label for="radio-whatsapp">   <input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
-          
-        </fieldset>
-       
-     
+        <!-- <label for="correoelectronico">Correo Electrónico</label>-->
+        <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
 
-    <input type="submit" value="Enviar mensaje"  class="enviar">
-    </form>
+
+        <input type="tel" id="telefono" class="input-padron" required placeholder=" Telefono (XX) (XXXX XXXX)">
+        <input type="text" placeholder="Asunto" id="asunto" class="input-padron" required>
+
+        <textarea name="mensaje" id="mensaje" cols="70" rows="10" placeholder="Mensaje" class="input-padron"></textarea>
+
+        <fieldset>
+          <legend>Cómo le gustaria que lo contacte? </legend>
+          <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">E-mail</label>
+
+
+          <label for="radio-telefono"> <input type="radio" name="contacto" value="telefono"
+              id="radio-telefono">Telefono</label>
+
+
+          <label for="radio-whatsapp"> <input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp"
+              checked>WhatsApp</label>
+
+        </fieldset>
+
+
+
+        <input type="submit" value="Enviar mensaje" class="enviar">
+      </form>
     </div>
   </section>
-  
 
- 
+
+
 
   <!--Footer -->
 
@@ -471,8 +479,11 @@
 
   <!--<script src="js/script-skills.js"></script>-->
 
- <script src="js/nav.js"></script>
- <script src="js/main.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/main.js"></script>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="js/navresponsive.js" ></script>
 </body>
 
 </html>

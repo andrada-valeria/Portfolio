@@ -2,7 +2,7 @@
     display: flex;
     padding: 30px; 
     transition: 1s all;
-  
+  align-items: center;
    
 }
 .hobbies img{

@@ -1,7 +1,10 @@
 
 .experiencia{
-  margin: 25px;
+  margin: 30px;
   font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+
+  
 }
 
 .fcc-btn {
@@ -14,13 +17,18 @@
 
   
 }
+
+
+h2{
+font-weight: bold;
+}
 .fcc-btn:hover {
   background-color: black;
   color: yellow;
   border-radius: 10px;
 }
 .codificador , .mediayes, .mi-bella-lana {
-    display: flex;
+ 
     flex-direction: row;
     align-items: center;
      text-align: justify;

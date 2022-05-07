@@ -1,0 +1,113 @@
+header {
+    width: 100%;
+    padding: 40px;
+    color: white;
+    text-align: center;
+    background: #112d4e;
+  }
+  
+  nav ul {
+    background: linear-gradient(
+    45deg,
+    #47cacc,
+    #63bcc9,
+    #cdb3d4,
+    #e7b7c8,
+    #ffbe88
+  );
+    text-align: center;
+    list-style: none;
+    overflow: hidden;
+    justify-content: space-around;
+  align-items: center;
+  
+  }
+  
+  ul li {
+    display: inline-block;
+    padding: 20px;
+    transition: all ease-in-out 250ms;
+  }
+  .nav_links :hover {
+    color: cornsilk  ;
+    font-size: 24px;
+  }
+  ul li:hover {
+    color: cornsilk;
+    font-size: 18px;
+  }
+  
+  ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hide {
+    padding: 16px;
+    font-size: 22px;
+    background: linear-gradient(
+        45deg,
+        #47cacc,
+        #63bcc9,
+        #cdb3d4,
+        #e7b7c8,
+        #ffbe88
+      );
+    color: white;
+    cursor: pointer;
+   
+  }
+  
+  @media (max-width: 360px) {
+    ul li {
+      width: 100%;
+      padding: 15px;
+      text-align: left;
+    }
+  
+    .hide {
+      display: none;
+    }
+  
+    nav ul {
+    display: block;
+  
+    }
+  }
+  @media (max-width: 768px) {
+    ul li {
+      width: 100%;
+      padding: 15px;
+      text-align: left;
+    }
+  
+    .hide {
+      display: block;
+    }
+  
+    nav ul {
+    display: none;
+  
+    }
+  }
+
+  @media (max-width: 1024px) {
+    ul li {
+      width: 100%;
+      padding: 18px;
+      text-align: left;
+    }
+    ul li:hover {
+        color: rgb(223, 165, 201);
+        font-size: 20px;
+      }
+  
+    .hide {
+      display: table;
+    }
+  
+    nav ul {
+    display: flex;
+  
+    }
+  }

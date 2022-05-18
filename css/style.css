@@ -130,12 +130,12 @@ footer {
 
 @media screen and (min-width:360px) {
   *{
-   font-size: 2rem;
+   font-size: rem;
   }
   body{ 
   
     line-height:5rem; 
-    font-size: 2rem; 
+    font-size: 3rem; 
    } 
  /**/
   ul li {
@@ -157,7 +157,7 @@ footer {
   .presentacion, .sobre-mi,.s-h,.container__card, .contact-section, .footer{
   
     width: 100%;
-    
+    font-size: 3rem; 
   }
   #skills{
     display: block;
@@ -190,11 +190,12 @@ footer {
  .codificador, .mediayes, .mi-bella-lana{
     display: block;
     text-align: center;
-   
+    font-size: 3rem; 
     }
   #contact-section{
    
     display: block;
+    font-size: 3rem; 
   }
   
   }

@@ -2,10 +2,10 @@ let ubicacionPrincipal = window.pageYOffset;
 window.onscroll = function(){
     let Desplazamiento_Actual = window.pageYOffset;
     if(ubicacionPrincipal >= Desplazamiento_Actual){
-        document.getElementById('cabecera').style.top ='0';
+        document.getElementById('principio').style.top ='0';
 
     }else{
-        document.getElementById('cabecera').style.top ='-100px';
+        document.getElementById('principio').style.top ='-100px';
     }
     ubicacionPrincipal = Desplazamiento_Actual;
 }

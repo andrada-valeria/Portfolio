@@ -3,7 +3,8 @@ header {
     padding: 40px;
     color: white;
     text-align: center;
-    background: #112d4e;
+    background: #3f76bf;
+  
   }
   
   nav ul {
@@ -45,20 +46,20 @@ header {
   .hide {
     padding: 16px;
     font-size: 22px;
-    background: linear-gradient(
-        45deg,
-        #47cacc,
-        #63bcc9,
-        #cdb3d4,
-        #e7b7c8,
-        #ffbe88
-      );
+    background:#3f76bf;
     color: white;
     cursor: pointer;
+
    
   }
   
   @media (max-width: 360px) {
+      header{
+          position: fixed;
+      }
+      switch{
+        text-align: right;
+      }
     ul li {
       width: 100%;
       padding: 15px;
@@ -67,6 +68,7 @@ header {
   
     .hide {
       display: none;
+      
     }
   
     nav ul {
@@ -75,6 +77,9 @@ header {
     }
   }
   @media (max-width: 768px) {
+    header{
+      position: fixed;
+  }
     ul li {
       width: 100%;
       padding: 15px;
@@ -92,6 +97,9 @@ header {
   }
 
   @media (max-width: 1024px) {
+    header{
+      position: fixed;
+  }
     ul li {
       width: 100%;
       padding: 18px;

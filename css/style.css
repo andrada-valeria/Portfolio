@@ -74,12 +74,14 @@ align-items: flex-start;
 }
 .presentacion-texto {
   display: flex;
-padding: 6rem ;
+padding: 8rem ;
    padding-left: 3rem;
   width: 100%;
   text-align: center;
   justify-content: space-around;
   font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 2rem;
 }
 .foto-vale {
   border-radius: 50% 20% / 10% 40%;
@@ -102,11 +104,7 @@ align-items: flex-end;
   transform: scale(1.2);
 }
 
-.sobre-mi {
 
-
-  width: auto;
-}
 
 .sobremi-txt p {
   font-family: "Raleway", sans-serif;
@@ -114,6 +112,8 @@ align-items: flex-end;
   text-align: justify;
   margin: 0 0 1em;
   color: #022222;
+  line-height: 2rem;
+  font-size: 18px;
 }
 
 
@@ -130,13 +130,19 @@ footer {
 
 @media screen and (min-width:360px) {
   *{
-    size: 5rem;
+   font-size: 2rem;
   }
+  body{ 
+  
+    line-height:5rem; 
+    font-size: 2rem; 
+   } 
  /**/
   ul li {
     width: 100%;
     padding: 15px;
     text-align: left;
+   
   }
 
   .hide {
@@ -151,9 +157,12 @@ footer {
   .presentacion, .sobre-mi,.s-h,.container__card, .contact-section, .footer{
   
     width: 100%;
+    
   }
   #skills{
     display: block;
+    transform: scale(1.1);
+  
   }
   .panel img {
     width: 150px;
@@ -175,15 +184,16 @@ footer {
   }
   
   .panel, .hobbies, .info{
-   
+    
     width: 100%;
   }
  .codificador, .mediayes, .mi-bella-lana{
     display: block;
     text-align: center;
+   
     }
   #contact-section{
-  
+   
     display: block;
   }
   
@@ -217,7 +227,9 @@ footer {
 }
   
 @media screen and (min-width:1024px) {
-  
+  body{
+    line-height:2rem; 
+  }
  /**/
  ul li {
   width: 100%;
@@ -233,8 +245,12 @@ nav ul {
 display: flex;
 
 }
+.sobre-mi{
+  padding: 25px;
+  margin: 2rem;
+}
 /**/
-  .presentacion, .sobre-mi,.container__card, .contact-section, .footer{
+  .presentacion, .container__card, .contact-section, .footer{
   
     width: auto;
   }
@@ -246,7 +262,10 @@ display: flex;
     }
   #skills{
     display: flex;
+   
+
   }
+
   .panel, .hobbies,.proyecto, .info{
    
     width: 100%;

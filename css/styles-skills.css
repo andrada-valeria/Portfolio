@@ -1,19 +1,22 @@
 #skills{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    padding: 50px 400px 300px 20px;
+    padding-bottom: 5rem;
+    
 
-   
-  padding: 10px; 
-   
-   }
-
-
-/*
+}
+.panel {
+    padding: 30px 30px;
+    width: 150px;
+    height: 150px;
+    transition: width 4s, height 4s, transform 4s;
+  }
  .panel :hover {
     width:250px;
     height: 250px;
-    transform: rotate(180deg);
+    /*transform: rotate(180deg);*/
+    transform: translateZ(80deg);
    
-    margin-top: 10%;
-    
-   
-  }*/
- 
+  }

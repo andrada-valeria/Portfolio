@@ -1,25 +1,11 @@
 .hobbie{
     display: flex;
-    padding: 30px; 
-    transition: 1s all;
-  align-items: center;
-   
-}
-.hobbies img{
-    width: 80px;
-    height: 80px;
-    margin: 40px;
     
+    border-radius: 3px;
+    padding-top: 3rem;
 }
-.hobbies :hover{
-   /* border-radius:50%;
--webkit-border-radius:50%;
-box-shadow: 0px 0px 15px 15px #8abada;
--webkit-box-shadow: 0px 0px 15px 15px #51accf;
-transform: rotate(360deg);
--webkit-transform: rotate(360deg);
-*/
-
-transition: 200ms;
-box-shadow: 10px -10px steelblue, -10px 10px teal;
+.hobbies{
+    width: 40px;
+    height: 40px;
+    border-style: outset;
 }

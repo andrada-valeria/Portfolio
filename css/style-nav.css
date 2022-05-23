@@ -4,7 +4,7 @@ header {
     color: white;
     text-align: center;
     background: #3f76bf;
-  
+  position: fixed;
   }
   
   nav ul {
@@ -49,7 +49,7 @@ header {
     background:#3f76bf;
     color: white;
     cursor: pointer;
-
+position: fixed;
    
   }
   
